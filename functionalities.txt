@@ -1,0 +1,63 @@
+Signup:
+    ☐ Error: username exist
+
+Signin:
+    ☐ Error Handling
+        ☐ Error: Wrong password
+        ☐ Error: No such username exists. Sign up first
+
+Create:
+    ☐ Error Handling
+        ☐ Error: group already exist
+
+List:
+    ☐ list
+
+Join:
+    ☐ join
+    ☐ Error Handling
+        ☐ Error: Invalid command format
+        ☐ Error: Group does not exist
+
+Send:
+    ☐ p2p message/File
+    ☐ file
+        ☐ any file format supported
+
+    ☐ multi user
+        ☐ SEND <user_name1,user_name2> <MSG/FILE> <message/file_path>
+    ☐ multi grp
+        ☐ SEND <group_name1,group_name2,group_name3> <MSG/FILE> <message/file_path>
+    ☐ multi mix user grp
+        ☐ SEND <user_name1,group_name1,user_name2,group_name2> <MSG/FILE> <message/file_path>
+
+    ☐ Error Handling
+        ☐ Invalid Command Format
+        ☐ The user you want to send the message to does not exist
+
+Encription:
+    ☐ The message is encrypted using Tripple DES (3DES) and the key will be Diffie–Hellman key type exchanged between clients.
+
+Modularization:
+    ☐ For every service -> New module
+    ☐ For every work -> new function
+    ☐ Fundamentaly Same functions -> Same modulude
+
+LoadBalancer:
+    ☐ Hash base load balancing has been done
+
+fault tolerance:
+    ☐ Any time new server can be started
+    ☐ any time any server can be intrupped
+
+Log:
+    ☐ Every user specific Logs
+
+Repository:
+    ☐ Every user info
+    ☐ Part of which group
+        ☐ In that group if he is admin/creator or not
+
+
+
+
